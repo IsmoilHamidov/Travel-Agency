@@ -1,0 +1,347 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Devonshire&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Holder_box{
+    width: 100%;
+    height: auto;
+    /* border: 3px solid sandybrown; */
+    position: relative;
+}
+
+
+.main{
+    width: 100%;
+    height: 800px;
+    /* border: 2px solid red; */
+    padding: 18px 130px;
+    background-image: url('./images/BG.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.navbar_basic{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* .this_collapse{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+} */
+
+.N_collapes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+
+.sign_up{
+    width: 80%;
+    height: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 0px !important;
+    list-style-type: none;
+    margin: 0px;
+}
+ 
+.sign_up i{
+   color: #FFC814;
+   text-decoration: none;
+   transition: .2s ease-in-out;
+   margin-right: 15px;
+}   
+.sign_up a{
+   color: white;
+   text-decoration: none;
+   transition: .2s ease-in-out;
+}   
+
+.sign_up a:hover{
+    color: rgba(185, 185, 185, 0.918);
+}
+.sign_btn{
+    width: 145px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC814;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    margin-left: 10px;
+}
+
+.sign_btn:Hover{
+    background-color: #f4b24e;
+}
+
+.info_box{
+    width: 563px;
+    height: auto;
+    margin-top: 100px;
+    color: white;
+}
+.title_text{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    letter-spacing: 2.7px;
+    margin-bottom: 17px;;
+}
+.introuction_text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.buttom_box{
+    width: 310px;
+    height: 51px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Second_main{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    /* border: 2px solid green; */
+    padding: 90px 0px 30px 130px;
+    position: relative;
+    display: flex;
+}
+
+.background_text{
+    font-weight: 600;
+    font-size: 330px;
+    letter-spacing:10px;
+    line-height: 300px;
+    color: #F4F6FA;
+    position: absolute;
+    z-index: 1;
+    margin-top: 10px 0px 0px 0px;
+    margin: 0 auto;
+}
+
+.pictures_container{
+    width: 540px;
+    height: 570px;
+    /* border: 2px solid skyblue; */
+    padding: 0px;
+    position: relative;
+    z-index: 2;
+    margin-top: 130px;
+}
+
+.pictures_container :nth-child(1){
+    width: 410px;
+    height: 520px;
+    z-index: -1;
+}
+
+.pictures_container :nth-child(2){
+    width: 266px;
+    height: 282px;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 0px;
+}
+
+.About_us{
+    margin: 130px 25px 0px 20px;
+    z-index: 2;
+    width: 810px;;
+    height: 569px;
+    display: flex;
+}
+
+.yellow_text{
+    font-size: 28px;
+    line-height: 15px;
+    letter-spacing: 4px;
+    font-family: 'Devonshire', cursive;
+    font-weight: 400;
+    color: #FFC814;
+}
+
+.set_corner{
+    width: 63%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #9DA1B4;
+    row-gap: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 14px;
+}
+.left_corner h4{
+    color: #1F3347;
+    font-size: 33px;
+    line-height: 48px;
+}
+.check_icon{
+    margin-right: 10px;
+}
+
+.Numbers_conatiner{
+    width: 100%;
+    height: 85px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Plus_box{
+    width: 30%;
+    height: 100%;
+    font-weight: 500;
+}
+
+.Plus_box span{
+    font-size: 32px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #FFC814;
+}
+.Plus_box p{
+    margin: 0px;
+}
+.right_corner{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.right_corner img{
+    width: 100%;
+    height: 425px;
+}
+
+
+.Central_data_box{
+    position: absolute;
+    width: 1260px;
+    height: 207px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.Travel_services{
+    width: 515px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service_box{
+    background-color: white;
+    border-radius: 4px 4px 0px 0px;
+    border: none;
+    width: 120px;
+    height: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.service_box:focus{
+    background-color: #FFC814;
+}
+
+.service_box i{
+    margin-right: 7px;
+}
+
+
+.Travel_informations{
+    width: 100%;
+    height: 162px;
+    background-color: white;
+    box-shadow: #E4E2EE 0px 2px 7px 1px;
+    padding: 30px 30px;
+}
+
+.Passenger_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.passenger_data{
+    width: 15%;
+    height: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.passenger_data p{
+    margin: 0px;
+}
+
+.passenger_data:nth-child(6){
+    justify-content: end;
+    align-items: center;
+}
+
+.passenger_data input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: #E4E2EE 0px 5px 10px 1px ;
+    padding: 0px 12px;
+    outline: none;
+}
+
+.passenger_data select{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: #E4E2EE 0px 5px 10px 1px ;
+    padding: 0px 12px;
+    outline: none;
+}
+
