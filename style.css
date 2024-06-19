@@ -54,7 +54,7 @@
 
 
 .sign_up{
-    width: 80%;
+    width: 96%;
     height: 100% !important;
     display: flex;
     justify-content: space-between;
@@ -67,12 +67,11 @@
     list-style-type: none;
     margin: 0px;
 }
- 
+
 .sign_up i{
    color: #FFC814;
    text-decoration: none;
    transition: .2s ease-in-out;
-   margin-right: 15px;
 }   
 .sign_up a{
    color: white;
@@ -146,6 +145,7 @@
     line-height: 300px;
     color: #F4F6FA;
     position: absolute;
+    top: 50%;
     z-index: 1;
     margin-top: 10px 0px 0px 0px;
     margin: 0 auto;
@@ -322,6 +322,7 @@
     justify-content: end;
     align-items: center;
 }
+
 
 .passenger_data input{
     width: 100%;

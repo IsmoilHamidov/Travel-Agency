@@ -4,7 +4,7 @@
     .main{
       width: 100%;
       height: auto;
-      padding: 50px 50px;
+      padding: 50px 20px;
       background-position: 0cqw;
       background-size: cover;
       position: relative;
@@ -21,7 +21,13 @@
     .sign_up i{
       display: inline;
     }
-
+    .sign_btn{
+      width: 45%;
+      height: 45px;
+      font-size: 14px;
+      font-weight: 500;
+      margin: 0px;
+    }
     .info_box{
       width: 100%;
       height: 70%;
@@ -29,12 +35,12 @@
       margin-top: 50px;
     }
     .title_text{
-      font-size: 40px;
+      font-size: 30px;
       letter-spacing: 1px;
-      line-height: 52px
+      line-height: 38px
     }
     .introuction_text{
-      width: 100%;
+      font-size: 15px;
     }
     .buttom_box{
       width: 100%;
@@ -49,48 +55,64 @@
       height: auto;
       display: flex;
       flex-direction: column;
-      padding: 20px 30px;
+      padding: 20px 20px;
     }
     .background_text{
       display: none;
     }
     .pictures_container{
       width: 100%;
-      height: 570px;
+      height: auto;
       margin-top: 0px;
     }
     .pictures_container :nth-child(1){
       width: 100%;
+      height: 50%;
+      object-fit: contain;
     }
 
     .pictures_container :nth-child(2){
-        bottom: -2px;
+        bottom: -70px;
+        width: 70%;
+        height: 60%;
+        object-fit: contain;
     }
 
     .About_us{
       width: 100%;
       height: auto;
       display: grid;
-      margin: 20px 0px 0px 0px;
+      margin: 50px 0px 0px 0px;
     }
     .left_corner{
       width: 100%;
       height: auto;
       display: grid;
       row-gap: 15px;
-      margin-top: 600px;
+      margin-top: 570px;
     }
     .left_corner h4{
-      font-size: 28px;
+      font-size: 22px;
+      line-height: 37px;
     }
     .Numbers_conatiner{
+      width: 100%;
       height: 90px;
+    }
+    .left_corner p{
+      font-size: 14px;
+    }
+    .yellow_text{
+      font-size: 24px !important;
     }
     .Plus_box{
       display: grid;
     }
     .Plus_box span{
-      font-size: 28px;
+      font-size: 22px;
+    }
+    .Plus_box p{
+      font-size: 10px;
     }
     .left_btn{
       margin: 20px auto;
@@ -106,36 +128,42 @@
     }
     .right_corner img{
       width: 70%;
-      height: auto;
-      height: 350px;
+      height: 80%;
+      object-fit: contain;
     }
 
     .Central_data_box{
       width: 83%;
       height: 450px;
       margin: 0 auto;
-      top: 54%;;
+      top: 50%;;
     }
     .Travel_services{
         width: 100%;
     }
+    .Travel_services span{
+       font-size: 14px;
+    }
     .service_box{
       width: 20%;
+      font-size: 15px;
     }
     .Travel_informations{
       width: 100%;
-      height: 80%;
+      height: 90%;
       padding: 0px 0px;
     }
     .Passenger_box{
       display: flex;
       flex-wrap: wrap;
-      padding: 10px;
+      padding: 15px 10px;
+      height: auto;
     }
     .passenger_data{
       width: 40%;
-      height: 100px;
+      height: 120px;
       justify-content: space-evenly;
+      font-size: 14px;
     }
     .passenger_data input{
       width: 95%;
@@ -145,8 +173,18 @@
     .passenger_data select{
       width: 80%;
       height: 50px;
-  }
-  
+      font-size: 14px;
+    }
+    .passenger_data:nth-child(6){
+      justify-content: center;
+      align-items: start;
+    } 
+    .passenger_data:nth-child(6) a{
+      width: 100%;
+    }
+    .passenger_data:nth-child(6) button{
+      width: 100%;
+    }
 }
 
 
